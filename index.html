@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <header class="class">
+  <header class="header">
     <div class="container">
       <div class="header__inner">
         <img src="images/logo.png" alt="logo" class="header__logo">
@@ -18,26 +18,69 @@
         <div class="header__nav">
           <button class="header__nav-btn">
             <img class="header__nav-img" src="images/alarm.png" alt="alarm">
+            <span class="header__badge header__badge--1">25</span>
           </button>
 
           <button class="header__nav-btn">
             <img class="header__nav-img" src="images/envelope.png" alt="">
+            <span class="header__badge header__badge--2">6</span>
           </button>
 
           <button class="header__nav-btn">
             <img class="header__nav-img" src="images/cart.png" alt="cart">
+            <span class="header__badge header__badge--3">1700</span>
+
           </button>
         </div>
-        <div class="header-user">
-          <img src="#" alt="" class="header__user-img">
+        <div class="header__user">
+          <img src="images/users/1.jpg" alt="users" class="header__user-img">
           <p class="header__user-name">Toafiq Hakim</p>
           <p class="header__price">
             $20.43
           </p>
         </div>
       </div>
+
+
     </div>
   </header>
+  <div class="header__menu container">
+    <nav class="header__menu-nav">
+      <ul class="header__menu-list">
+
+        <li class="header__menu-items5">
+          <a href="#" class="header__menu-link">Home</a>
+        </li>
+
+        <li class="header__menu-items5">
+          <a href="#" class="header__menu-link">All products</a>
+        </li>
+
+        <li class="header__menu-items5">
+          <a href="#" class="header__menu-link">Wordpress</a>
+        </li>
+
+        <li class="header__menu-items5">
+          <a href="#" class="header__menu-link">Features</a>
+        </li>
+
+        <li class="header__menu-items5">
+          <a href="#" class="header__menu-link">Pages</a>
+        </li>
+
+      </ul>
+    </nav>
+
+    <form action="#" class="search">
+      <input type="text" class="search__input" placeholder="Search product here...">
+      <button class="search__btn">
+        <img src="images/search-button.png" alt="search">
+      </button>
+    </form>
+
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>
